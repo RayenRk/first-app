@@ -10,5 +10,4 @@ import { FormsModule } from '@angular/forms';
 })
 export class TwoWayComponent {
   two:any="";
-
 }
