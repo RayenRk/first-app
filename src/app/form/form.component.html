@@ -1,0 +1,9 @@
+<div class="container" [style.backgroundColor]="color">
+<hr>
+Nom : {{nom}}<br>
+Age : {{age}}<br>
+Adresse : {{adresse}}<br>
+
+<input #name [value]="">
+<button class="btn btn-primary" (click)="modifierColor(name.value)">Modifier</button>
+</div>
