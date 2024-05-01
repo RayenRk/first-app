@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
 })
 export class FormComponent {
 
-  nom : string = 'Aymen';
-  age:number = 35;
+  nom : string = 'Rayen';
+  age:number = 30;
   adresse : string ='Chez moi...';
   color: string="white";
 
