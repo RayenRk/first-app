@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormComponent } from './form/form.component';
 import { TwoWayComponent } from './two-way/two-way.component';
+import { CardComponent } from './card/card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FormComponent, TwoWayComponent],
+  imports: [RouterOutlet, FormComponent, TwoWayComponent, CardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

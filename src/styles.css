@@ -1,8 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-container {
+.container-v {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+
+.container-h {
+  margin-top: 4%;
+  margin-inline: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+  width: 100%;
 }
