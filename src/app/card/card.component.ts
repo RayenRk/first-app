@@ -12,7 +12,7 @@ export class CardComponent {
   sync:any="";
   name: any="John Doe";
   job: any="Developer";
-  img: any = "rotating_card_profile2.png";
+  img: any = "2.png";
   bio: any="Orgesou bel we7ed";
   do: any="Dev";
   key: any="Dev, Music, Football";
