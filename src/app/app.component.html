@@ -1,3 +1,8 @@
 <div class="container">
-<app-card></app-card>
+    <p>Je suis le composant père</p>
+    <h2> Compteur = {{result}}</h2>
+    <hr>
+    <app-fils (valueChange)="showValue($event)"></app-fils>
+    <hr>
+    <app-card></app-card>
 </div>
